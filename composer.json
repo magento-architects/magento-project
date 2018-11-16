@@ -1,0 +1,53 @@
+{
+    "name": "magento/cart",
+    "description": "eCommerce Platform for Growth (Community Edition)",
+    "type": "project",
+    "version": "2.2.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/library-app-object-manager": "*",
+        "magento/library-app-front-controller": "*",
+        "magento/library-app-request": "*",
+        "magento/module-cart-webapi": "*"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../source/*/app/code/Magento/*"
+        },
+        {
+            "type": "path",
+            "url": "../source/*/lib/internal/Magento/Framework/*"
+        },
+        {
+            "type": "path",
+            "url": "../source/*/lib/internal/Magento/Framework/App/*"
+        },
+        {
+            "type": "path",
+            "url": "../source/*/app/design/*/*/*"
+        },
+        {
+            "type": "path",
+            "url": "../source/*/app/i18n/*/*"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": [
+                "generated/code"
+            ]
+        },
+        "files": [
+            "bootstrap.php"
+        ]
+    },
+    "extra": {
+        "magento-root-dir": "root"
+    }
+}
