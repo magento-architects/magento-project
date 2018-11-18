@@ -8,6 +8,7 @@ return [
         'Magento_Cart' => 1,
         'Magento_CartApi' => 1,
         'Magento_CartWebapi' => 1,
-        'Magento_Webapi' => 1
+        'Magento_Webapi' => 1,
+        'Magento_Authorization' => 1
     ]
 ];

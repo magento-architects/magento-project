@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae3277ed5f877160e508330669217221",
+    "content-hash": "16c1c38ace1f35f8f09a0ae76f613c8e",
     "packages": [
         {
             "name": "colinmollenhour/cache-backend-file",
@@ -359,7 +359,7 @@
         },
         {
             "name": "magento/library-apcu-cache",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/ApcuCache",
@@ -387,7 +387,7 @@
         },
         {
             "name": "magento/library-api",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Api",
@@ -413,7 +413,7 @@
         },
         {
             "name": "magento/library-app-area",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Area",
@@ -439,7 +439,7 @@
         },
         {
             "name": "magento/library-app-area-list",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/AreaList",
@@ -466,7 +466,7 @@
         },
         {
             "name": "magento/library-app-arguments",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Arguments",
@@ -492,8 +492,36 @@
             ]
         },
         {
+            "name": "magento/library-app-cache",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/lib/internal/Magento/Framework/App/Cache",
+                "reference": "fd097f1ded10d6f495ed7209d7fcc1849ce822d3",
+                "shasum": null
+            },
+            "require": {
+                "magento/library-app-resource-connection": "*",
+                "magento/zendframework1": "~1.14.1",
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\App\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ]
+        },
+        {
             "name": "magento/library-app-config",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Config",
@@ -520,7 +548,7 @@
         },
         {
             "name": "magento/library-app-deployment-config",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/DeploymentConfig",
@@ -547,7 +575,7 @@
         },
         {
             "name": "magento/library-app-filesystem",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Filesystem",
@@ -574,7 +602,7 @@
         },
         {
             "name": "magento/library-app-front-controller",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/FrontController",
@@ -601,7 +629,7 @@
         },
         {
             "name": "magento/library-app-object-manager",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/ObjectManager",
@@ -642,7 +670,7 @@
         },
         {
             "name": "magento/library-app-request",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Request",
@@ -667,8 +695,34 @@
             ]
         },
         {
+            "name": "magento/library-app-resource-connection",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/lib/internal/Magento/Framework/App/ResourceConnection",
+                "reference": "77a121723f73ea290da80a078538b9e76928a7e9",
+                "shasum": null
+            },
+            "require": {
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\App\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ]
+        },
+        {
             "name": "magento/library-app-response",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Response",
@@ -694,7 +748,7 @@
         },
         {
             "name": "magento/library-app-route",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Route",
@@ -720,7 +774,7 @@
         },
         {
             "name": "magento/library-app-router",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Router",
@@ -746,7 +800,7 @@
         },
         {
             "name": "magento/library-app-scope",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Scope",
@@ -772,7 +826,7 @@
         },
         {
             "name": "magento/library-app-state",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/State",
@@ -797,8 +851,34 @@
             ]
         },
         {
+            "name": "magento/library-authorization",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/lib/internal/Magento/Framework/Authorization",
+                "reference": "ae03b3bf7260b73fcc1ca48470a77473d01b7e5b",
+                "shasum": null
+            },
+            "require": {
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ]
+        },
+        {
             "name": "magento/library-autoload",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Autoload",
@@ -824,7 +904,7 @@
         },
         {
             "name": "magento/library-cache",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Cache",
@@ -855,7 +935,7 @@
         },
         {
             "name": "magento/library-code",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Code",
@@ -882,7 +962,7 @@
         },
         {
             "name": "magento/library-component",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Component",
@@ -908,7 +988,7 @@
         },
         {
             "name": "magento/library-config",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Config",
@@ -938,7 +1018,7 @@
         },
         {
             "name": "magento/library-controller",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Controller",
@@ -964,14 +1044,15 @@
         },
         {
             "name": "magento/library-data",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Data",
-                "reference": "2e45195bde0a16f32824289f2baa37d600516069",
+                "reference": "69e649802b9675cc287359981829f159653b7ed4",
                 "shasum": null
             },
             "require": {
+                "magento/library-option": "*",
                 "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-library",
@@ -990,7 +1071,7 @@
         },
         {
             "name": "magento/library-data-object",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/DataObject",
@@ -1016,7 +1097,7 @@
         },
         {
             "name": "magento/library-exception",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Exception",
@@ -1042,7 +1123,7 @@
         },
         {
             "name": "magento/library-filesystem",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Filesystem",
@@ -1069,7 +1150,7 @@
         },
         {
             "name": "magento/library-http",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/HTTP",
@@ -1097,14 +1178,15 @@
         },
         {
             "name": "magento/library-interception",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Interception",
-                "reference": "64811b136932dd666c8d4e4de8e2d3497be5504d",
+                "reference": "99abd0b402e2f09b75e9892d2db68beac18ffd63",
                 "shasum": null
             },
             "require": {
+                "magento/library-app-cache": "*",
                 "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
                 "zendframework/zend-code": "^3.1.0"
             },
@@ -1124,7 +1206,7 @@
         },
         {
             "name": "magento/library-json",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Json",
@@ -1150,7 +1232,7 @@
         },
         {
             "name": "magento/library-logger",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Logger",
@@ -1176,8 +1258,35 @@
             ]
         },
         {
+            "name": "magento/library-model",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/lib/internal/Magento/Framework/Model",
+                "reference": "f55a3341024dac90ccba00b0319b1e2dec82287d",
+                "shasum": null
+            },
+            "require": {
+                "magento/library-app-resource-connection": "*",
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ]
+        },
+        {
             "name": "magento/library-module",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Module",
@@ -1204,7 +1313,7 @@
         },
         {
             "name": "magento/library-object-manager",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/ObjectManager",
@@ -1232,8 +1341,34 @@
             ]
         },
         {
+            "name": "magento/library-option",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/lib/internal/Magento/Framework/Option",
+                "reference": "3f289c7d797bffa35aa9e74519267eb38712cbe3",
+                "shasum": null
+            },
+            "require": {
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ]
+        },
+        {
             "name": "magento/library-phrase",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Phrase",
@@ -1259,7 +1394,7 @@
         },
         {
             "name": "magento/library-reflection",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Reflection",
@@ -1285,7 +1420,7 @@
         },
         {
             "name": "magento/library-serialize",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Serialize",
@@ -1311,7 +1446,7 @@
         },
         {
             "name": "magento/library-stdlib",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Stdlib",
@@ -1337,7 +1472,7 @@
         },
         {
             "name": "magento/library-translate",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Translate",
@@ -1365,7 +1500,7 @@
         },
         {
             "name": "magento/library-url",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Url",
@@ -1393,15 +1528,16 @@
         },
         {
             "name": "magento/library-webapi",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Webapi",
-                "reference": "5e0479b6c8ddeb332544073e51657ada6d3cd998",
+                "reference": "1f68db710c11fe2bd40d2d31bd3ea88af44db9e2",
                 "shasum": null
             },
             "require": {
                 "magento/library-api": "*",
+                "magento/library-authorization": "*",
                 "magento/library-controller": "*",
                 "magento/library-http": "*",
                 "magento/library-json": "*",
@@ -1427,7 +1563,7 @@
         },
         {
             "name": "magento/library-xml",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Xml",
@@ -1452,8 +1588,63 @@
             ]
         },
         {
+            "name": "magento/module-authorization",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/app/code/Magento/Authorization",
+                "reference": "5fe75524ecc9534eee182fdcfd6150b48473f0b6",
+                "shasum": null
+            },
+            "require": {
+                "magento/library-model": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Authorization\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Authorization module provides access to Magento ACL functionality."
+        },
+        {
+            "name": "magento/module-cart",
+            "version": "dev-split-framework",
+            "dist": {
+                "type": "path",
+                "url": "../source/magento2/app/code/Magento/Cart",
+                "reference": "c4c9fda1f87a24ee6dcc635e9478d5436a8a3790",
+                "shasum": null
+            },
+            "require": {
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Cart\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A"
+        },
+        {
             "name": "magento/module-cart-api",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/CartApi",
@@ -1480,7 +1671,7 @@
         },
         {
             "name": "magento/module-cart-webapi",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/CartWebapi",
@@ -1509,17 +1700,18 @@
         },
         {
             "name": "magento/module-webapi",
-            "version": "dev-2.3-develop",
+            "version": "dev-split-framework",
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/Webapi",
-                "reference": "7eb28ebe2e5e3343dcea4a238238f85bb0cea466",
+                "reference": "44b9a48966dbfd69400d48532d6d408af4c4c720",
                 "shasum": null
             },
             "require": {
                 "magento/library-apcu-cache": "*",
                 "magento/library-app-router": "*",
                 "magento/library-webapi": "*",
+                "magento/module-authorization": "*",
                 "php": "~7.1.3||~7.2.0"
             },
             "suggest": {

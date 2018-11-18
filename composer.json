@@ -11,7 +11,8 @@
         "magento/library-app-object-manager": "*",
         "magento/library-app-front-controller": "*",
         "magento/library-app-request": "*",
-        "magento/module-cart-webapi": "*"
+        "magento/module-cart-webapi": "*",
+        "magento/module-cart": "*"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
