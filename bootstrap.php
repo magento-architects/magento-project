@@ -21,7 +21,7 @@ function handleException(\Exception $e) {
 function mageErrorHandler($code, $message, $file, $line, $trace) {
     if (ini_get('display_errors')) {
         $output = "<div style='background:#ffaa99;padding: 5px;'><strong>Error:</strong> " . $message . ' in ' . $file . ' on line ' . $line . "</div>";
-        $backtrace = $trace ?: debug_backtrace();
+        $backtrace = debug_backtrace();
         $rows = [];
         foreach ($backtrace as $row) {
             if (!$row) {
@@ -83,7 +83,7 @@ function stop()
     list($start, $title) = array_pop($timeStack);
     $time = microtime(true) - $start;
     $label = sprintf("End $title: %f", $time);
-//    echo str_pad($label,strlen($label) + count($timeStack), "_", STR_PAD_LEFT) . "<br>";
+    //echo str_pad($label,strlen($label) + count($timeStack), "_", STR_PAD_LEFT) . "<br>";
     if (!isset($total[$title])) {
         $total[$title] = ['time' => $time, 'count' => 0];
     }
