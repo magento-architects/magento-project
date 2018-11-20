@@ -363,7 +363,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/ApcuCache",
-                "reference": "e08a8f13e5fb874611ac800ba96207cbd6cb33cc",
+                "reference": "79000ba033f81667603f5aa66ccfd4f095237fd1",
                 "shasum": null
             },
             "require": {
@@ -377,7 +377,7 @@
                     "Magento\\Framework\\": ""
                 },
                 "files": [
-                    "registration.php"
+                    "bootstrap.php"
                 ]
             },
             "license": [
@@ -391,7 +391,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Api",
-                "reference": "1f28b3bf14d26c3bea754e291ae43f77f0815b8e",
+                "reference": "5035b9962785006c325d9fe8d47981bf5ff21a43",
                 "shasum": null
             },
             "require": {
@@ -401,10 +401,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -417,20 +414,18 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Area",
-                "reference": "222e0b5ce0048a08b3e8b7e2665f84a429ebd48c",
+                "reference": "6644d042331c296d6085abcac980a3a516f35eb9",
                 "shasum": null
             },
             "require": {
+                "magento/library-translate": "*",
                 "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
             },
             "type": "magento2-library",
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -443,7 +438,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/AreaList",
-                "reference": "491355670788193ee05febc06184fedd7a518314",
+                "reference": "e53f7ee58d3aa58978178eb202a365ae0f8fe4b4",
                 "shasum": null
             },
             "require": {
@@ -454,10 +449,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -470,7 +462,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Arguments",
-                "reference": "89e0de621477db3a498da8a4f1685ed75aebf96b",
+                "reference": "75742808972b39307a54b696f922ed6363565c08",
                 "shasum": null
             },
             "require": {
@@ -481,10 +473,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -497,7 +486,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Cache",
-                "reference": "fd097f1ded10d6f495ed7209d7fcc1849ce822d3",
+                "reference": "b478a3d0bb926a834431046e62dae769796e1095",
                 "shasum": null
             },
             "require": {
@@ -509,10 +498,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -525,7 +511,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Config",
-                "reference": "dd8368d184094ce9e1f312a7e897bcb086404ae1",
+                "reference": "48fa92bb891cbca3b810a1f584c161bd8c318df6",
                 "shasum": null
             },
             "require": {
@@ -536,10 +522,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -552,7 +535,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/DeploymentConfig",
-                "reference": "c11e7c393112075782eb9e03f5f81d0916568a30",
+                "reference": "8d41ffced36e782df5d3b2e9ee1f27d071a4d00b",
                 "shasum": null
             },
             "require": {
@@ -563,10 +546,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -579,7 +559,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Filesystem",
-                "reference": "59032840456e01fc20cfdcf8f213cb2c2dcbe8d8",
+                "reference": "24a156bf98a3684c1734a27082887bb220414bb5",
                 "shasum": null
             },
             "require": {
@@ -590,10 +570,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -606,7 +583,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/FrontController",
-                "reference": "2db5a3b33cf99a6599598623ceb2fb92e45907f6",
+                "reference": "ad2fdae13d96d04ce0c120ee3cc0801d8f02129e",
                 "shasum": null
             },
             "require": {
@@ -617,10 +594,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -633,7 +607,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/ObjectManager",
-                "reference": "ee5be0774eec89b3ff877d3c624eebef7156e055",
+                "reference": "cbb3d75c39717a43ecdd72264ebd4e17518221f0",
                 "shasum": null
             },
             "require": {
@@ -659,7 +633,6 @@
                     "Magento\\Framework\\App\\": ""
                 },
                 "files": [
-                    "registration.php",
                     "functions.php"
                 ]
             },
@@ -674,7 +647,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Request",
-                "reference": "ed2dd4d7ece78b09bf154199f240971290716ae6",
+                "reference": "2341f316724f33e0676e561a8cfb7798289a1161",
                 "shasum": null
             },
             "require": {
@@ -684,10 +657,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -700,7 +670,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/ResourceConnection",
-                "reference": "77a121723f73ea290da80a078538b9e76928a7e9",
+                "reference": "76acf7b23f1f5276a55a48502e6ff17e5003371c",
                 "shasum": null
             },
             "require": {
@@ -710,10 +680,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -726,7 +693,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Response",
-                "reference": "57c512151714a8eeb2eaa7255237024e40446049",
+                "reference": "2e67b48fbb18e028fae7c4b3891962c100001de8",
                 "shasum": null
             },
             "require": {
@@ -736,10 +703,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -752,7 +716,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Route",
-                "reference": "b8e1c4457d07b7f691349faed615a8b0cebecc29",
+                "reference": "dbc49fbb0ea1de0db1c4d8a29c791cc18a29797d",
                 "shasum": null
             },
             "require": {
@@ -762,10 +726,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -778,7 +739,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Router",
-                "reference": "48dcf92058667af68e870a048b850c78f19ac925",
+                "reference": "bf0ac129fadbf2ce9a4c4b110f27e6ac48754382",
                 "shasum": null
             },
             "require": {
@@ -788,10 +749,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -804,7 +762,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/Scope",
-                "reference": "5844949db595e98852ddc034292fac856b74aae3",
+                "reference": "4a9b17f06edc234a6830c7f9e53af6458be23b28",
                 "shasum": null
             },
             "require": {
@@ -814,10 +772,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -830,7 +785,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/App/State",
-                "reference": "3ef442dc3abff66aa2ff693c1c8229f0ffd89482",
+                "reference": "afd9ba7cf7143739584c8f796ae5994ec698a574",
                 "shasum": null
             },
             "require": {
@@ -840,10 +795,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\App\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -856,7 +808,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Authorization",
-                "reference": "ae03b3bf7260b73fcc1ca48470a77473d01b7e5b",
+                "reference": "97f60ce1fcbc41124d383cc5d30919e0a3e342b0",
                 "shasum": null
             },
             "require": {
@@ -866,10 +818,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -882,7 +831,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Autoload",
-                "reference": "1f2b7fe39a5f1a70b04021ae1c3586c9fd003c7e",
+                "reference": "b408a5d9a145170c92052de3877abccd3d520a13",
                 "shasum": null
             },
             "require": {
@@ -892,10 +841,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -908,7 +854,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Cache",
-                "reference": "992f13a464b55663518f1e74fe3fb306067aed62",
+                "reference": "714788c3b21a8e8fc1ed10d8a6154b2f0910eee5",
                 "shasum": null
             },
             "require": {
@@ -923,10 +869,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -939,7 +882,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Code",
-                "reference": "081f7e17e0c018660b1b8304afd3638516973f5a",
+                "reference": "2c37977c6b7dd3e0450318ab4ea80887bac6b44e",
                 "shasum": null
             },
             "require": {
@@ -950,10 +893,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -966,7 +906,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Component",
-                "reference": "dcf4fb879b25f51092601494851d406a936d9370",
+                "reference": "b37875455dcb68aeb0632553e502e05792b52e53",
                 "shasum": null
             },
             "require": {
@@ -976,10 +916,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -992,7 +929,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Config",
-                "reference": "446705840852248bf724d78099322eeb400485ec",
+                "reference": "6947c49e80d7ccf34ce86c499252d42ac160670a",
                 "shasum": null
             },
             "require": {
@@ -1006,10 +943,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1022,7 +956,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Controller",
-                "reference": "2ebd3c09d5b85fc387d439d994a07c623ea3d33d",
+                "reference": "688e6e7ee937721509ff1c9426c315cc335f69c6",
                 "shasum": null
             },
             "require": {
@@ -1032,10 +966,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1048,7 +979,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Data",
-                "reference": "69e649802b9675cc287359981829f159653b7ed4",
+                "reference": "f63f28687e2661ad72860b099695ec59a7107575",
                 "shasum": null
             },
             "require": {
@@ -1059,10 +990,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1075,7 +1003,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/DataObject",
-                "reference": "255226b440dbaecef2a51330099da05b7890314b",
+                "reference": "acfea161e8b8f7c4ff40f923d5dd4277e16b12d1",
                 "shasum": null
             },
             "require": {
@@ -1085,10 +1013,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1101,7 +1026,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Exception",
-                "reference": "eeb6036c2d5a6d762c6dd0a4b6c76c66bbaab384",
+                "reference": "acd37ced1e72585887fe878366edd161964655a7",
                 "shasum": null
             },
             "require": {
@@ -1111,10 +1036,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1127,7 +1049,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Filesystem",
-                "reference": "eb2bc4ebb24304f8fceb3cd71a2cf4ff8aae74be",
+                "reference": "bc18270590ebffddc3976927a3636d7b992b5b8e",
                 "shasum": null
             },
             "require": {
@@ -1138,10 +1060,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1154,7 +1073,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/HTTP",
-                "reference": "ebdfb1fe0f68f6901cab37aca863a59dccda6939",
+                "reference": "7944d7ee59554a42e427956b202be62280d39490",
                 "shasum": null
             },
             "require": {
@@ -1166,10 +1085,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1182,7 +1098,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Interception",
-                "reference": "99abd0b402e2f09b75e9892d2db68beac18ffd63",
+                "reference": "b90bf9b1e8a0b6e72eeb067e7a39ed0b7dea4639",
                 "shasum": null
             },
             "require": {
@@ -1194,10 +1110,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1210,7 +1123,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Json",
-                "reference": "d638527d5160f2c0eda83719288cc5be58375ce6",
+                "reference": "d035bba3c5cf5784cf68d7f1b4205046d891cb8e",
                 "shasum": null
             },
             "require": {
@@ -1220,10 +1133,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1236,7 +1146,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Logger",
-                "reference": "4182c8e9e737a0ba6d8330a3bfa655a08baa9a21",
+                "reference": "71c2b9008492010dddbdecedd061cb2f89eff543",
                 "shasum": null
             },
             "require": {
@@ -1247,10 +1157,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1263,7 +1170,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Model",
-                "reference": "f55a3341024dac90ccba00b0319b1e2dec82287d",
+                "reference": "b061b0907470e4e211005924d4afc1951224267c",
                 "shasum": null
             },
             "require": {
@@ -1274,10 +1181,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1290,7 +1194,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Module",
-                "reference": "f0121b660381092db0780cd9c71232d273d1e2fc",
+                "reference": "a4f086ad7a4e6b0de1844215f9c192166cbc0ed1",
                 "shasum": null
             },
             "require": {
@@ -1301,10 +1205,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1317,7 +1218,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/ObjectManager",
-                "reference": "7bdfa131c4480c76532c8224f282ff55fe786fe9",
+                "reference": "56fb523e435e5e979360898168dd71f57d457753",
                 "shasum": null
             },
             "require": {
@@ -1330,10 +1231,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1346,7 +1244,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Option",
-                "reference": "3f289c7d797bffa35aa9e74519267eb38712cbe3",
+                "reference": "0235e100f24e6b94902d652b0341d4df5554f670",
                 "shasum": null
             },
             "require": {
@@ -1356,10 +1254,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1372,7 +1267,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Phrase",
-                "reference": "5eadfed9d0f39cf76cb775cb657d48c0ed6dc1ce",
+                "reference": "9147b95b6089154b57311491f946005eca0afe0f",
                 "shasum": null
             },
             "require": {
@@ -1382,10 +1277,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1398,7 +1290,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Reflection",
-                "reference": "6e85dcd1ac870a90c5484a9c9a02090ca37bf289",
+                "reference": "83dc4bf77cd5778fb1374a089397dac1f833fd7c",
                 "shasum": null
             },
             "require": {
@@ -1408,10 +1300,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1424,7 +1313,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Serialize",
-                "reference": "d8da089bb47b12ec3d2efffec42803645436bbf1",
+                "reference": "349435792f02a7f62f9b48844c01d989931846c2",
                 "shasum": null
             },
             "require": {
@@ -1434,10 +1323,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1450,7 +1336,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Stdlib",
-                "reference": "6d6094b277512f2043300d618b41fd86ba8f183a",
+                "reference": "ebe40340ff222cf8b011af34791895bbf17af74b",
                 "shasum": null
             },
             "require": {
@@ -1460,10 +1346,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1476,7 +1359,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Translate",
-                "reference": "9db67bf1053fc0653aa323316760bab4c0bfe0a3",
+                "reference": "410d50981cc6e7aef045e6e3ee1add94e59a2983",
                 "shasum": null
             },
             "require": {
@@ -1488,10 +1371,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1504,7 +1384,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Url",
-                "reference": "84d94110d8ba3df60dd617f2ace8a9d8a62267c4",
+                "reference": "4cfaa11de3af6fe9715ff00f515dcf1fcf7ef4c8",
                 "shasum": null
             },
             "require": {
@@ -1516,10 +1396,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1532,7 +1409,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Webapi",
-                "reference": "1f68db710c11fe2bd40d2d31bd3ea88af44db9e2",
+                "reference": "c561bee63b253690e3127a035907664510e6a739",
                 "shasum": null
             },
             "require": {
@@ -1551,10 +1428,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1567,7 +1441,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/lib/internal/Magento/Framework/Xml",
-                "reference": "fe1de17e4b62866538ea31969de4493f234681d7",
+                "reference": "1590ba7c0122aeab2c526f1bdbb4a1c127e1276e",
                 "shasum": null
             },
             "require": {
@@ -1577,10 +1451,7 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
@@ -1593,7 +1464,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/Authorization",
-                "reference": "5fe75524ecc9534eee182fdcfd6150b48473f0b6",
+                "reference": "8d9ebea52493d1b818839af8f802e3aa8d2cf35e",
                 "shasum": null
             },
             "require": {
@@ -1602,9 +1473,6 @@
             },
             "type": "magento2-module",
             "autoload": {
-                "files": [
-                    "registration.php"
-                ],
                 "psr-4": {
                     "Magento\\Authorization\\": ""
                 }
@@ -1621,7 +1489,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/Cart",
-                "reference": "c4c9fda1f87a24ee6dcc635e9478d5436a8a3790",
+                "reference": "9bd1503a3d8e1cf890e067d016beb6586e1ea5fc",
                 "shasum": null
             },
             "require": {
@@ -1629,9 +1497,6 @@
             },
             "type": "magento2-module",
             "autoload": {
-                "files": [
-                    "registration.php"
-                ],
                 "psr-4": {
                     "Magento\\Cart\\": ""
                 }
@@ -1648,7 +1513,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/CartApi",
-                "reference": "0890d919d4a6d1b1034b272aff50e8b2abb3080f",
+                "reference": "673d98fd8ad08027c2c58165c6919dce98daa63e",
                 "shasum": null
             },
             "require": {
@@ -1656,9 +1521,6 @@
             },
             "type": "magento2-module",
             "autoload": {
-                "files": [
-                    "registration.php"
-                ],
                 "psr-4": {
                     "Magento\\CartApi\\": ""
                 }
@@ -1675,7 +1537,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/CartWebapi",
-                "reference": "b967998f9158be846c22ec8c43044966536c4542",
+                "reference": "e91bfd33f1c3efde1832012124853675dd1ce451",
                 "shasum": null
             },
             "require": {
@@ -1685,9 +1547,6 @@
             },
             "type": "magento2-module",
             "autoload": {
-                "files": [
-                    "registration.php"
-                ],
                 "psr-4": {
                     "Magento\\Cart\\": ""
                 }
@@ -1704,7 +1563,7 @@
             "dist": {
                 "type": "path",
                 "url": "../source/magento2/app/code/Magento/Webapi",
-                "reference": "44b9a48966dbfd69400d48532d6d408af4c4c720",
+                "reference": "6dcd840809815153448ab6478ecbc17f6477cfe5",
                 "shasum": null
             },
             "require": {
@@ -1720,9 +1579,6 @@
             },
             "type": "magento2-module",
             "autoload": {
-                "files": [
-                    "registration.php"
-                ],
                 "psr-4": {
                     "Magento\\Webapi\\": ""
                 }

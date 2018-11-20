@@ -45,8 +45,12 @@
             ]
         },
         "files": [
-            "bootstrap.php"
+            "bootstrap.php", "vendor/magento_components.php"
         ]
+    },
+    "scripts": {
+        "post-install-cmd": "\\Magento\\Framework\\Component\\ComponentRegistrar::install",
+        "post-update-cmd": "\\Magento\\Framework\\Component\\ComponentRegistrar::install"
     },
     "extra": {
         "magento-root-dir": "root"
