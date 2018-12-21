@@ -96,5 +96,5 @@ register_shutdown_function(function() {
     if (count($total)) {
         var_dump($total);
     }
-    var_dump($objects);
+    //var_dump($objects);
 });

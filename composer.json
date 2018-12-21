@@ -39,13 +39,16 @@
         }
     ],
     "autoload": {
+        "psr-4": {
+            "Akril\\": "app"
+        },
         "psr-0": {
             "": [
                 "generated/code"
             ]
         },
         "files": [
-            "bootstrap.php", "vendor/magento_components.php"
+            "bootstrap.php"
         ]
     },
     "scripts": {

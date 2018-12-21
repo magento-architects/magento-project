@@ -11,7 +11,7 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'magento-db',
-                'dbname' => 'cart',
+                'dbname' => 'latest',
                 'username' => 'root',
                 'password' => 'password',
                 'model' => 'mysql4',
