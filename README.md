@@ -1,4 +1,4 @@
-# Sample lightweight Magento repository structure
+# Sample Magento repository structure
 
 ## Instllation steps
 1. Create a folder
