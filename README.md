@@ -17,8 +17,8 @@
 
 1. Clone magento2 repository to `../source` folder
 
-    `git clone git@github.com:magento-architects/magento2.git`
+    `git clone git@github.com:magento-architects/magento2/tree/split-framework`
     
-1. Return back `magento-project` folder and run `composer update`
+1. Return back `magento-project` folder and run `composer install`
 
 Framework components will be symlinked from `source` folder
